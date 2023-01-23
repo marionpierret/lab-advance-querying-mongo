@@ -19,7 +19,7 @@
 
 <!-- Your Code Goes Here -->
 `Query: {founded_year: {$gte:2000, $lte:2005}}`
-`Project: {name:1, _id:0}`
+`Project: {name:1, founded_year:1, _id:0}`
 
 ### 4. All the companies that had a Valuation Amount of more than 100.000.000 and have been founded before 2010. Retrieve only the `name` and `ipo` fields.
 

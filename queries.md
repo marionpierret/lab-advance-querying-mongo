@@ -30,13 +30,14 @@
 ### 5. All the companies that have less than 1000 employees and have been founded before 2005. Order them by the number of employees and limit the search to 10 companies.
 
 <!-- Your Code Goes Here -->
-`{number_of_employees: {$lt: 1000}, founded_year: {$lt: 2005}}`
-`{number_of_employees: -1}`
+`Query: {number_of_employees: {$lt: 1000}, founded_year: {$lt: 2005}}`
+`Sort: {number_of_employees: -1}`
+`Limit: 10`
 
 ### 6. All the companies that don't include the `partners` field.
 
 <!-- Your Code Goes Here -->
-`{partners: null}`
+`Query: {partners: null}`
 
 ### 7. All the companies that have a null type of value on the `category_code` field.
 
